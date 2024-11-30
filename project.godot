@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Dinorun1"
+config/name="Warrior Run"
 run/main_scene="res://node.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 run/max_fps=60
