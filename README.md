@@ -1,7 +1,7 @@
 # WarriorRun
 Game like the Chrome dinosaur. This is my first game in Godot. Hope you like it <3
 
-#Credits
+# Credits
 - https://clembod.itch.io/warrior-free-animation-set
 - https://jalastram.itch.io/8-bit-jump-sound-effects
 - https://jesse-m.itch.io/jungle-pack
