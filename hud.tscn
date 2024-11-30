@@ -1,0 +1,52 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcptmu5stmurc"]
+
+[ext_resource type="FontFile" uid="uid://c2whx6aaeq7yf" path="res://Monocraft.ttf" id="1_iyhxr"]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="ScoreLabel" type="Label" parent="."]
+texture_filter = 1
+offset_left = 6.0
+offset_right = 193.0
+offset_bottom = 41.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_iyhxr")
+theme_override_font_sizes/font_size = 40
+text = "SCORE: "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HighScoreLabel" type="Label" parent="."]
+texture_filter = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -293.0
+offset_bottom = 41.0
+grow_horizontal = 0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_iyhxr")
+theme_override_font_sizes/font_size = 40
+text = "HIGH SCORE:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StartLabel" type="Label" parent="."]
+texture_filter = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -146.5
+offset_top = -20.5
+offset_right = 146.5
+offset_bottom = 20.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("1_iyhxr")
+theme_override_font_sizes/font_size = 40
+text = "PRESS SPACE TO PLAY"
+horizontal_alignment = 1
+vertical_alignment = 1

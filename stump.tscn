@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwbdfa0e42b24"]
+
+[ext_resource type="Texture2D" uid="uid://mif2nttw6dl0" path="res://sprites/3 Objects/Ridges/2.png" id="1_4fxxk"]
+
+[node name="Stump" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(4, 4)
+texture = ExtResource("1_4fxxk")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2(4, 4)
+polygon = PackedVector2Array(7.5, -7.5, 5, -10, 2.25, -4.25, -2.5, -1.75, -5.5, -3.75, -10.5, -5.75, -14.5, 7.25, -16.5, 8, -20, 14, 19.75, 14, 19.25, 9.5, 16.75, 5.25, 13.75, 4.25, 12.5, -4, 11.75, -14, 10.25, -13.75)

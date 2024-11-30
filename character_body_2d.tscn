@@ -1,0 +1,198 @@
+[gd_scene load_steps=38 format=3 uid="uid://ugwtogm22vto"]
+
+[ext_resource type="Texture2D" uid="uid://g7lg7dfr6pkc" path="res://sprites/Warrior/Individual Sprite/Death-Effect/Warrior_Death_1.png" id="1_0d0vi"]
+[ext_resource type="Script" path="res://character_body_2d.gd" id="1_el68e"]
+[ext_resource type="Texture2D" uid="uid://c80j5hxyi8wqc" path="res://sprites/Warrior/Individual Sprite/Death-Effect/Warrior_Death_2.png" id="2_ldi25"]
+[ext_resource type="Texture2D" uid="uid://dp83568phgjpr" path="res://sprites/Warrior/Individual Sprite/Death-Effect/Warrior_Death_3.png" id="3_8saso"]
+[ext_resource type="Texture2D" uid="uid://ytlwa51kpui8" path="res://sprites/Warrior/Individual Sprite/Death-Effect/Warrior_Death_4.png" id="4_6t8ur"]
+[ext_resource type="Texture2D" uid="uid://cdwxfr4ifqbbd" path="res://sprites/Warrior/Individual Sprite/Death-Effect/Warrior_Death_5.png" id="5_qiody"]
+[ext_resource type="Texture2D" uid="uid://e4cfji4djdyx" path="res://sprites/Warrior/Individual Sprite/Death-Effect/Warrior_Death_6.png" id="6_qf2e3"]
+[ext_resource type="Texture2D" uid="uid://brp7tvudemtji" path="res://sprites/Warrior/Individual Sprite/Death-Effect/Warrior_Death_7.png" id="7_ec2iu"]
+[ext_resource type="Texture2D" uid="uid://dee2q2c73oset" path="res://sprites/Warrior/Individual Sprite/Death-Effect/Warrior_Death_8.png" id="8_urmmn"]
+[ext_resource type="Texture2D" uid="uid://iy08rccxyd7" path="res://sprites/Warrior/Individual Sprite/Death-Effect/Warrior_Death_9.png" id="9_c3aqm"]
+[ext_resource type="Texture2D" uid="uid://bfjcguw5itoki" path="res://sprites/Warrior/Individual Sprite/Death-Effect/Warrior_Death_10.png" id="10_d6of7"]
+[ext_resource type="Texture2D" uid="uid://1t3xrwl4s1eh" path="res://sprites/Warrior/Individual Sprite/Death-Effect/Warrior_Death_11.png" id="11_dm7dj"]
+[ext_resource type="Texture2D" uid="uid://c6cr54ubk3b18" path="res://sprites/Warrior/Individual Sprite/Slide/Warrior-Slide_1.png" id="12_pd85u"]
+[ext_resource type="Texture2D" uid="uid://4aq87b7ftmdl" path="res://sprites/Warrior/Individual Sprite/Slide/Warrior-Slide_2.png" id="13_683jt"]
+[ext_resource type="Texture2D" uid="uid://dtvsx2v5o6qrx" path="res://sprites/Warrior/Individual Sprite/Slide/Warrior-Slide_3.png" id="14_1f2wd"]
+[ext_resource type="Texture2D" uid="uid://cfxgsxj54i5of" path="res://sprites/Warrior/Individual Sprite/idle/Warrior_Idle_1.png" id="16_q4vt6"]
+[ext_resource type="Texture2D" uid="uid://cuc6gf2gpdai6" path="res://sprites/Warrior/Individual Sprite/idle/Warrior_Idle_2.png" id="17_gkjo6"]
+[ext_resource type="Texture2D" uid="uid://vape8r1a5oxd" path="res://sprites/Warrior/Individual Sprite/idle/Warrior_Idle_3.png" id="18_b5fjo"]
+[ext_resource type="Texture2D" uid="uid://b8olgpl08qd7b" path="res://sprites/Warrior/Individual Sprite/idle/Warrior_Idle_4.png" id="19_y34fq"]
+[ext_resource type="Texture2D" uid="uid://cpllr6seul2lh" path="res://sprites/Warrior/Individual Sprite/idle/Warrior_Idle_5.png" id="20_rttqi"]
+[ext_resource type="Texture2D" uid="uid://cpl0r8yshck1w" path="res://sprites/Warrior/Individual Sprite/idle/Warrior_Idle_6.png" id="21_t8u4a"]
+[ext_resource type="Texture2D" uid="uid://bcuregoepvele" path="res://sprites/Warrior/Individual Sprite/Run/Warrior_Run_1.png" id="22_2wqmi"]
+[ext_resource type="Texture2D" uid="uid://bx135lkopxbiy" path="res://sprites/Warrior/Individual Sprite/Run/Warrior_Run_2.png" id="23_ecttj"]
+[ext_resource type="Texture2D" uid="uid://olc0hfaqhkhv" path="res://sprites/Warrior/Individual Sprite/Run/Warrior_Run_3.png" id="24_6ub34"]
+[ext_resource type="Texture2D" uid="uid://bmi64sgemspwb" path="res://sprites/Warrior/Individual Sprite/Run/Warrior_Run_4.png" id="25_7c8en"]
+[ext_resource type="Texture2D" uid="uid://dtxevr30ysuk4" path="res://sprites/Warrior/Individual Sprite/Run/Warrior_Run_5.png" id="26_lpv83"]
+[ext_resource type="Texture2D" uid="uid://bm83n808smvd5" path="res://sprites/Warrior/Individual Sprite/Run/Warrior_Run_6.png" id="27_kh7np"]
+[ext_resource type="Texture2D" uid="uid://dweislgqhmcjy" path="res://sprites/Warrior/Individual Sprite/Run/Warrior_Run_7.png" id="28_m1usr"]
+[ext_resource type="Texture2D" uid="uid://dagr4s2k25gqp" path="res://sprites/Warrior/Individual Sprite/Jump/Warrior_Jump_1.png" id="28_o2m3s"]
+[ext_resource type="Texture2D" uid="uid://d7fhkvd176um" path="res://sprites/Warrior/Individual Sprite/Run/Warrior_Run_8.png" id="29_k4amy"]
+[ext_resource type="Texture2D" uid="uid://dcoo3xck0hkto" path="res://sprites/Warrior/Individual Sprite/Jump/Warrior_Jump_2.png" id="29_x5r32"]
+[ext_resource type="Texture2D" uid="uid://bmcrrhm211efc" path="res://sprites/Warrior/Individual Sprite/Jump/Warrior_Jump_3.png" id="30_t58uo"]
+[ext_resource type="AudioStream" uid="uid://b7cmqgneibvk" path="res://sprites/8_BIT_[50_SFX]_Jump_Free_Sound_Effects_N1_BY_jalastram/SFX_Jump_22.wav" id="35_nm42b"]
+[ext_resource type="AudioStream" uid="uid://nhyqv4d1u6wh" path="res://sprites/youtube__lKbD_7pwyM_audio.mp3" id="38_xq6eb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_t0k1c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_0d0vi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ldi25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_8saso")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6t8ur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_qiody")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qf2e3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ec2iu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_urmmn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_c3aqm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_d6of7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_dm7dj")
+}],
+"loop": false,
+"name": &"Death",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_dm7dj")
+}],
+"loop": true,
+"name": &"Death2",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_pd85u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_683jt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_1f2wd")
+}],
+"loop": true,
+"name": &"Duck",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_q4vt6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_gkjo6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_b5fjo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_y34fq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_rttqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_t8u4a")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_o2m3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_x5r32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_t58uo")
+}],
+"loop": true,
+"name": &"Jump",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_2wqmi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ecttj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_6ub34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_7c8en")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_lpv83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_kh7np")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_m1usr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_k4amy")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3rjon"]
+size = Vector2(25, 29)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8w034"]
+size = Vector2(25, 18)
+
+[node name="Warrior" type="CharacterBody2D"]
+z_index = 1
+script = ExtResource("1_el68e")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 1
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_t0k1c")
+animation = &"Death"
+autoplay = "Idle"
+frame = 10
+frame_progress = 1.0
+
+[node name="RunCol" type="CollisionShape2D" parent="."]
+position = Vector2(-7.5, 6.5)
+shape = SubResource("RectangleShape2D_3rjon")
+
+[node name="DuckCol" type="CollisionShape2D" parent="."]
+position = Vector2(-7.5, 12)
+shape = SubResource("RectangleShape2D_8w034")
+
+[node name="JumpSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("35_nm42b")
+
+[node name="SlideSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("38_xq6eb")
